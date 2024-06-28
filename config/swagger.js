@@ -24,7 +24,7 @@ const swaggerDefinition = {
 var options = {
   swaggerDefinition: swaggerDefinition,
   apis: [
-    path.join(__dirname, "../docs/swagger/userDocs.js"),
+    path.join(__dirname, "../docs/swagger/testDocs.js"),
     // add more paths...
   ],
 };

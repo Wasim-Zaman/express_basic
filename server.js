@@ -5,6 +5,7 @@ require("dotenv").config();
 
 const swaggerSpec = require("./config/swagger");
 const generateResponse = require("./utils/response");
+const testRoutes = require("./routes/test");
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
+app.use(testRoutes);
 // Add your routes...
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
