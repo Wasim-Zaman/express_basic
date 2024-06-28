@@ -1,4 +1,4 @@
-Node Express Boilerplate
+***Node Express Boilerplate
 Welcome to the Node Express Boilerplate! This repository provides a basic setup for a Node.js and Express.js project with Swagger documentation. Clone this repo to quickly get started with your Node Express application without having to set up the basics.
 
 Table of Contents
