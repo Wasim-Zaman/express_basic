@@ -7,7 +7,7 @@ exports.getTest = (req, res, next) => {
     };
     res
       .status(200)
-      .json(generateResponse(200, true, "Test route is working!", null));
+      .json(generateResponse(200, true, "Test route is working!", data));
   } catch (error) {
     next(error);
   }
